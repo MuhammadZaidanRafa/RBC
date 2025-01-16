@@ -1,0 +1,1 @@
+<?php // Kode PHP untuk menampilkan berita terbaru $news = getLatestNews(); // Fungsi untuk mendapatkan berita terbaru dari database foreach ($news as $item) { echo "<h2>{$item['title']}</h2>"; echo "<p>{$item['content']}</p>"; } ?>
